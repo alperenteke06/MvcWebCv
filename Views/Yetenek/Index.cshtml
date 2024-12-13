@@ -1,0 +1,88 @@
+﻿@using MvcWebCv.Models.Entity
+@model List<TblYeteneklerim>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{ string color = "";}
+
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <!-- Main content -->
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Yetenek Listem</h3>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body">
+                                <a href="@Url.Action("Create", "Yetenek")" class="btn btn-outline-primary">Yeni Yetenek Ekle</a>
+                                <br />
+                                <br />
+                                <table class="table table-bordered">
+                                    <thead class="text-center">
+                                        <tr>
+                                            <th style="width:10%">Id</th>
+                                            <th style="width:20%">Yetenek</th>
+                                            <th style="width:20%">Derece</th>
+                                            <th style="width:20%">Oran</th>
+                                            <th style="width:15%">Sil</th>
+                                            <th style="width:15%">Düzenle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var x in Model)
+                                        {
+                                            if (x.Oran >= 0 && x.Oran <= 50)
+                                            {
+                                                color = "bg-danger";
+                                            }
+                                            else if (x.Oran >= 51 && x.Oran <= 70)
+                                            {
+                                                color = "bg-warning";
+                                            }
+                                            else if (x.Oran >= 71 && x.Oran <= 84)
+                                            {
+                                                color = "bg-primary";
+                                            }
+                                            else if (x.Oran >= 85 && x.Oran <= 100)
+                                            {
+                                                color = "bg-success";
+                                            }
+
+                                            <tr class="align-items-center">
+                                                <td class="text-center align-middle">@x.Id</td>
+                                                <td class="text-center align-middle">@x.Yetenek</td>
+                                                <td class="align-middle">
+                                                    <div class="progress progress-xs">
+                                                        <div class="progress-bar @color" style="width: @x.Oran%"></div>
+                                                    </div>
+                                                </td>
+                                                <td class="text-center align-middle"><span class="badge @color" style="font-size: 1rem;">@x.Oran %</span></td>
+                                                <td class="text-center align-middle">
+                                                    <a href="@Url.Action("Delete", "Yetenek", new { id = x.Id })" class="btn btn-outline-danger">Sil</a>
+                                                </td>
+                                                <td class="text-center align-middle">
+                                                    <a href="@Url.Action("Edit", "Yetenek", new { id = x.Id })" class="btn btn-outline-warning">Güncelle</a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!-- /.card -->
+                        </div>
+                </div>
+            </div><!-- /.container-fluid -->
+        </section>
+        <!-- /.content -->
+    </div>
+</body>
+</html>

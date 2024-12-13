@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Yeni Deneyim Kaydı</h2>
+<hr />
+<form class="form-group" method="post">
+    <input class="form-control" type="text" name="Baslik" id="Baslik" placeholder="Başlık Giriniz..." />
+    <br />
+    <input class="form-control" type="text" name="AltBaslik" id="AltBaslik" placeholder="Alt Başlık Giriniz..." />
+    <br />
+    <textarea class="form-control" placeholder="Açıklama Giriniz..." rows="5"></textarea>
+    <br />
+    <input class="form-control" type="text" name="Tarih" id="Tarih" placeholder="Başlangıç - Bitiş Tarihi Giriniz..."/>
+    <br />
+    <button type="submit" class="btn btn-outline-success">Kaydet</button>
+</form>
+

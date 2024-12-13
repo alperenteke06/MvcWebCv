@@ -1,0 +1,30 @@
+﻿@using MvcWebCv.Models.Entity
+@model TblDeneyimlerim
+
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Deneyimi Güncelle</h2>
+<hr />
+<form class="form-group" method="post">
+    @Html.Label("Deneyim Id")
+    @Html.TextBoxFor(x => x.Id, new { @class = "form-control" })
+    <br />
+    @Html.Label("Başlık")
+    @Html.TextBoxFor(x => x.Baslik, new { @class = "form-control" })
+    <br />
+    @Html.Label("Alt Başlık")
+    @Html.TextBoxFor(x => x.AltBaslik, new { @class = "form-control" })
+    <br />
+    @Html.Label("Açıklama")
+    @Html.TextAreaFor(x => x.Aciklama, new { @class = "form-control" })
+    <br />
+    @Html.Label("Tarih")
+    @Html.TextBoxFor(x => x.Tarih, new { @class = "form-control" })
+    <br />
+    <button type="submit" class="btn btn-outline-success">Güncelle</button>
+</form>
+

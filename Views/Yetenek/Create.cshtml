@@ -1,0 +1,21 @@
+﻿@model MvcWebCv.Models.Entity.TblYeteneklerim
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Yetenek Ekle</h2>
+<hr />
+<form class="form-group" method="post">
+    @Html.Label("Yetenek Adı")
+    @Html.TextBoxFor(x => x.Yetenek, new { @class = "form-control" })
+    <br />
+    @Html.Label("Derece")
+    @Html.TextBoxFor(x => x.Oran, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-success">Kaydet</button>
+</form>
+
+

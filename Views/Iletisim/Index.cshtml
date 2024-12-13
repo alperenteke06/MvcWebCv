@@ -1,0 +1,55 @@
+﻿@using MvcWebCv.Models.Entity
+@model List<TblIletisim>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- /.col -->
+                <div class="col-md-12 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="tab-pane" id="timeline">
+                                <!-- The timeline -->
+                                <div class="timeline timeline-inverse">
+                                    @foreach (var x in Model)
+                                    {
+                                        <!-- timeline time label -->
+                                        <div class="time-label">
+                                            <span class="bg-info">
+                                                @((x.Tarih.HasValue ? x.Tarih.Value.ToString("dd-MMM-yyyy", new System.Globalization.CultureInfo("tr-TR")) : "Tarih Yok"))
+                                            </span>
+                                        </div>
+                                        <!-- timeline item -->
+                                        <div>
+                                            <i class="fas fa-comments bg-warning"></i>
+                                            <div class="timeline-item">
+                                                <span class="time"><i class="far fa-clock"></i> @x.Mail</span>
+                                                <h3 class="timeline-header"><a href="#">@x.AdSoyad</a> - @x.Konu</h3>
+                                                <div class="timeline-body">
+                                                    @x.Mesaj
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                    <!-- END timeline item -->
+                                </div>
+                            </div>
+                        </div><!-- /.card-body -->
+                    </div>
+                    <!-- /.nav-tabs-custom -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </section>
+</body>
+</html>

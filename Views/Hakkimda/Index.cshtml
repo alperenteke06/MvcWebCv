@@ -1,0 +1,36 @@
+﻿@using MvcWebCv.Models.Entity
+@model List<TblHakkimda>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2>Hakkımda Düzenle</h2>
+<hr />
+<form method="post">
+    @foreach (var x in Model)
+    {
+        <label class="form-label">Ad</label>
+        <input type="text" name="Ad" class="form-control" value="@x.Ad" />
+        <label class="form-label">Soyad</label>
+        <input type="text" name="Soyad" class="form-control" value="@x.Soyad" />
+        <label class="form-label">Adres</label>
+        <textarea rows="5" type="text" name="Adres" class="form-control">@x.Adres</textarea>
+        <label class="form-label">Telefon</label>
+        <input type="text" name="Telefon" class="form-control" value="@x.Telefon" />
+        <label class="form-label">Mail</label>
+        <input type="email" name="Mail" class="form-control" value="@x.Mail" />
+        <label class="form-label">Açıklama</label>
+        <input type="text" name="Aciklama" class="form-control" value="@x.Aciklama" />
+        <label class="form-label">Resim</label>
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="customFile" name="Resim">
+            <label class="custom-file-label" for="customFile">Dosya Seçin</label>
+        </div>
+    }
+    <br />
+    <br />
+    <button class="btn btn-outline-success">Güncelle</button>
+</form>
+

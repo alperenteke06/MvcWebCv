@@ -1,0 +1,24 @@
+﻿@model MvcWebCv.Models.Entity.TblSertifikalarım
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Sertifika Güncelle</h2>
+<hr />
+<form class="form-group" method="post">
+    @Html.Label("Sertifika")
+    @Html.TextBoxFor(x => x.Aciklama, new { @class = "form-control" })
+    <br />
+    @Html.Label("Tarih")
+    @Html.TextBoxFor(x => x.Tarih, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-success">Güncelle</button>
+    <a href="/Sertifika/Delete/@ViewBag.id" class="btn btn-outline-danger">Sil</a>
+    <h1>@ViewBag.id</h1>
+</form>
+
+
+

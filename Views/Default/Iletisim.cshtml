@@ -1,0 +1,17 @@
+﻿@using MvcWebCv.Models.Entity
+@model List<TblIletisim>
+<div class="resume-section-content">
+    <form method="post">
+        <h2 class="mb-5">Hobilerim</h2>
+        <label>Ad Soyad</label>
+        <input type="text" class="form-control" name="AdSoyad" />
+        <label>E-Mail</label>
+        <input type="email" class="form-control" name="Mail" />
+        <label>Konu</label>
+        <input type="text" class="form-control" name="Konu" />
+        <label>Mesaj</label>
+        <input type="text" class="form-control" name="Mesaj" />
+        <br />
+        <button type="submit" class="btn btn-outline-info">Mesaj Gönder</button>
+    </form>
+</div>

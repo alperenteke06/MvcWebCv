@@ -1,0 +1,38 @@
+﻿@using MvcWebCv.Models.Entity
+@model List<TblEgitimlerim>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Deneyimler</h2>
+<hr />
+<table class="table table-hover table-bordered">
+    <tr class="text-center">
+        <th>ID</th>
+        <th>Baslik</th>
+        <th>Alt Baslık</th>
+        <th>Alt Baslık 2</th>
+        <th>GNO</th>
+        <th>Tarih</th>
+        <th>Sil</th>
+        <th>Düzenle</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Id</td>
+            <td>@x.Baslik</td>
+            <td>@x.AltBaslik1</td>
+            <td>@x.AltBaslik2</td>
+            <td>@x.GNO</td>
+            <td>@x.Tarih</td>
+            <td> <a href="/Egitim/Delete/@x.Id" class="btn btn-outline-danger">Sil</a></td>
+            <td> <a href="/Egitim/Edit/@x.Id" class="btn btn-outline-warning">Düzenle</a></td>
+        </tr>
+    }
+</table>
+<a href="/Egitim/Create/" class="btn btn-outline-success">Yeni Eğitim Ekle</a>
+
