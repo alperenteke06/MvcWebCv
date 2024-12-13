@@ -134,6 +134,7 @@
     <Compile Include="Controllers\HobilerimController.cs" />
     <Compile Include="Controllers\IletisimController.cs" />
     <Compile Include="Controllers\SertifikaController.cs" />
+    <Compile Include="Controllers\SosyalMedyaController.cs" />
     <Compile Include="Controllers\YetenekController.cs" />
     <Compile Include="Models\Entity\Model1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -169,6 +170,9 @@
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entity\TblSertifikalarım.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entity\TblSosyalMedya.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entity\TblYeteneklerim.cs">
@@ -2370,6 +2374,9 @@
     <Content Include="Views\Sertifika\Create.cshtml" />
     <Content Include="Views\Iletisim\Index.cshtml" />
     <Content Include="Views\Hobilerim\Index.cshtml" />
+    <Content Include="Views\Default\SosyalMedya.cshtml" />
+    <Content Include="Views\SosyalMedya\Index.cshtml" />
+    <Content Include="Views\SosyalMedya\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

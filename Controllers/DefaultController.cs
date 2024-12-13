@@ -28,7 +28,15 @@ namespace MvcWebCv.Controllers
 		}
 		#endregion
 
-		#region Deneyimlerim
+		#region SosyalMedya
+		public PartialViewResult SosyalMedya()
+		{
+			var values = db.TblSosyalMedyas.Where(x=>x.Durum == true).ToList();
+			return PartialView(values);
+		}
+		#endregion
+
+		#region Egitimlerim
 		public PartialViewResult Egitimlerim()
 		{
 			var values = db.TblEgitimlerims.ToList();

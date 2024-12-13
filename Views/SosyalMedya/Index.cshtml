@@ -1,0 +1,90 @@
+﻿@using MvcWebCv.Models.Entity
+@model List<TblSosyalMedya>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <!-- Main content -->
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Sosyal Medya Hesaplarım</h3>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body">
+                                <button class="btn btn-outline-primary" data-toggle="modal" data-target="#Modal1">Sosyal Medya Hesabı Ekle</button>
+                                <br />
+                                <br />
+                                <table class="table table-bordered">
+                                    <thead class="text-center">
+                                        <tr>
+                                            <th>Id</th>
+                                            <th>Yetenek</th>
+                                            <th>Durum</th>
+                                            <th>Sil</th>
+                                            <th>Düzenle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var x in Model)
+                                        {
+                                            <tr class="align-items-center">
+                                                <td class="text-center align-middle">@x.ID</td>
+                                                <td class="text-center align-middle">@x.Ad</td>
+                                                <td class="text-center align-middle">@x.Durum</td>
+
+                                                <td class="text-center align-middle">
+                                                    <a href="@Url.Action("Delete", "SosyalMedya", new { id = x.ID })" class="btn btn-outline-danger">Sil</a>
+                                                </td>
+                                                <td class="text-center align-middle">
+                                                    <a href="@Url.Action("Edit", "SosyalMedya", new { id = x.ID })" class="btn btn-outline-warning">Güncelle</a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!-- /.card -->
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+        </section>
+        <!-- /.content -->
+        <div class="modal" id="Modal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sosyal Medya Ekleme</h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <form method="post" action="/SosyalMedya/Create">
+                        <div class="modal-body">
+                            <label>Sosyal Medya Adı</label>
+                            <input type="text" name="Ad" class="form-control" />
+                            <br />
+                            <label>Sosyal Medya Linki</label>
+                            <input type="text" name="Link" class="form-control" />
+                            <br />
+                            <label>Sosyal Icon Class</label>
+                            <input type="text" name="Icon" class="form-control" />
+                            <br />
+                            <button class="btn btn-outline-success">Kaydet</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

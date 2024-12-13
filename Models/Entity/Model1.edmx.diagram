@@ -13,6 +13,7 @@
         <EntityTypeShape EntityType="CvWebDBModel.TblIletisim" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="CvWebDBModel.TblSertifikalarım" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="CvWebDBModel.TblYeteneklerim" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CvWebDBModel.TblSosyalMedya" Width="1.5" PointX="8.75" PointY="3.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

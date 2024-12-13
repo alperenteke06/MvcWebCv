@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Projects\\MvcWebCv\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|c:\\projects\\mvcwebcv\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|solutionrelative:views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|c:\\projects\\mvcwebcv\\views\\deneyim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|solutionrelative:views\\deneyim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|c:\\projects\\mvcwebcv\\views\\hakkimda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|solutionrelative:views\\hakkimda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|c:\\projects\\mvcwebcv\\controllers\\hakkimdacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|solutionrelative:controllers\\hakkimdacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|c:\\projects\\mvcwebcv\\views\\deneyim\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|solutionrelative:views\\deneyim\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|c:\\projects\\mvcwebcv\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|c:\\projects\\mvcwebcv\\controllers\\sosyalmedyacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|solutionrelative:controllers\\sosyalmedyacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|c:\\projects\\mvcwebcv\\views\\sosyalmedya\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|solutionrelative:views\\sosyalmedya\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|c:\\projects\\mvcwebcv\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|solutionrelative:controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|c:\\projects\\mvcwebcv\\views\\sosyalmedya\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14CDD6AA-E497-4A2A-90D1-396DFFDA3CD2}|MvcWebCv.csproj|solutionrelative:views\\sosyalmedya\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +38,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MvcWebCv\\Views\\Deneyim\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Deneyim\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\MvcWebCv\\Views\\Deneyim\\Index.cshtml",
+              "RelativeToolTip": "Views\\Deneyim\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T23:01:41.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MvcWebCv\\Views\\Deneyim\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Deneyim\\Create.cshtml",
+              "ToolTip": "C:\\Projects\\MvcWebCv\\Views\\Deneyim\\Create.cshtml",
+              "RelativeToolTip": "Views\\Deneyim\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T23:01:38.001Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Projects\\MvcWebCv\\Views\\Default\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Default\\Index.cshtml",
-              "ToolTip": "C:\\Projects\\MvcWebCv\\Views\\Default\\Index.cshtml",
-              "RelativeToolTip": "Views\\Default\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowB8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T17:54:31.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Projects\\MvcWebCv\\Views\\Hakkimda\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Hakkimda\\Index.cshtml",
-              "ToolTip": "C:\\Projects\\MvcWebCv\\Views\\Hakkimda\\Index.cshtml",
-              "RelativeToolTip": "Views\\Hakkimda\\Index.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T17:30:56.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HakkimdaController.cs",
-              "DocumentMoniker": "C:\\Projects\\MvcWebCv\\Controllers\\HakkimdaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HakkimdaController.cs",
-              "ToolTip": "C:\\Projects\\MvcWebCv\\Controllers\\HakkimdaController.cs",
-              "RelativeToolTip": "Controllers\\HakkimdaController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T17:26:35.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Projects\\MvcWebCv\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
               "ToolTip": "C:\\Projects\\MvcWebCv\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-04T19:57:47.872Z",
+              "WhenOpened": "2024-12-13T23:01:22.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Projects\\MvcWebCv\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Projects\\MvcWebCv\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "Controllers\\DefaultController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T22:57:47.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MvcWebCv\\Views\\SosyalMedya\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\SosyalMedya\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\MvcWebCv\\Views\\SosyalMedya\\Index.cshtml",
+              "RelativeToolTip": "Views\\SosyalMedya\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T22:50:01.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MvcWebCv\\Views\\SosyalMedya\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\SosyalMedya\\Edit.cshtml",
+              "ToolTip": "C:\\Projects\\MvcWebCv\\Views\\SosyalMedya\\Edit.cshtml",
+              "RelativeToolTip": "Views\\SosyalMedya\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T22:45:25.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SosyalMedyaController.cs",
+              "DocumentMoniker": "C:\\Projects\\MvcWebCv\\Controllers\\SosyalMedyaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SosyalMedyaController.cs",
+              "ToolTip": "C:\\Projects\\MvcWebCv\\Controllers\\SosyalMedyaController.cs",
+              "RelativeToolTip": "Controllers\\SosyalMedyaController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwDcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T22:13:15.178Z",
               "EditorCaption": ""
             }
           ]
